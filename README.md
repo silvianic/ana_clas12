@@ -1,7 +1,7 @@
 # ana_clas12
 
 Analysis code on CLAS12 data for pDVCS and nDVCS channels. 
-At its heart it is a TSelector reading the hipo4 file converted to ROOT by Nick Tyler's hipo2root. 
+At its heart it is a TSelector reading the hipo4 files converted to ROOT by Nick Tyler's hipo2root. 
 It has a main code (ana.cxx and ana_mc.cxx) which reads an input file (runListNUM) containing the files to be analyized, chains them and gives them to the TSelector. 
 It produces an output ROOT files which contains 3 trees: ep, nDVCS, pDVCS. 
 Right now there are TWO CODES, one for data, one for MC. 
